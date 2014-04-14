@@ -533,7 +533,7 @@ void systemSoundCompleted(SystemSoundID systemSoundId, void *data) {
 
 - (void)drawCheatSheetBody {
     
-    UITableView *tableView = [[UITableView alloc] initWithFrame:CGRectMake(320, 130, 320, [[UIScreen mainScreen] bounds].size.height - 130)];
+    UITableView *tableView = [[UITableView alloc] initWithFrame:CGRectMake(320, 120, 320, [[UIScreen mainScreen] bounds].size.height - 120)];
     [tableView setAccessibilityIdentifier:kCheatSheetTableView];
     
     [tableView setSeparatorStyle:UITableViewCellSeparatorStyleNone];
