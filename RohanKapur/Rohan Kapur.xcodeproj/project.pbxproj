@@ -15,13 +15,6 @@
 		4605BDC918EEAA2D001BF904 /* RKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4605BDC818EEAA2D001BF904 /* RKAppDelegate.m */; };
 		4605BDF518EFBCE2001BF904 /* RKIntentSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4605BDF318EFBCE1001BF904 /* RKIntentSearchViewController.m */; };
 		4605BDF618EFBCE2001BF904 /* RKIntentSearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4605BDF418EFBCE2001BF904 /* RKIntentSearchViewController.xib */; };
-		4605BE0918EFBE8F001BF904 /* Wit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4605BDFB18EFBE8F001BF904 /* Wit.m */; };
-		4605BE0A18EFBE8F001BF904 /* WITCircleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4605BDFD18EFBE8F001BF904 /* WITCircleLayer.m */; };
-		4605BE0B18EFBE8F001BF904 /* WITCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4605BDFF18EFBE8F001BF904 /* WITCircleView.m */; };
-		4605BE0C18EFBE8F001BF904 /* WITMicButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4605BE0118EFBE8F001BF904 /* WITMicButton.m */; };
-		4605BE0D18EFBE8F001BF904 /* WITRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 4605BE0418EFBE8F001BF904 /* WITRecorder.m */; };
-		4605BE0E18EFBE8F001BF904 /* WITState.m in Sources */ = {isa = PBXBuildFile; fileRef = 4605BE0618EFBE8F001BF904 /* WITState.m */; };
-		4605BE0F18EFBE8F001BF904 /* WITUploader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4605BE0818EFBE8F001BF904 /* WITUploader.m */; };
 		4605BE1218EFBEF9001BF904 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4605BE1118EFBEF9001BF904 /* AVFoundation.framework */; };
 		4605BE1418EFBEFF001BF904 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4605BE1318EFBEFF001BF904 /* MobileCoreServices.framework */; };
 		4605BE1618EFBF06001BF904 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4605BE1518EFBF06001BF904 /* SystemConfiguration.framework */; };
@@ -59,7 +52,6 @@
 		4646430518F78CA6002FEB5C /* awards.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4646430418F78CA6002FEB5C /* awards.jpg */; };
 		4646430718F79FB2002FEB5C /* how.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4646430618F79FB2002FEB5C /* how.jpg */; };
 		468507B718F84A0100DDCCE7 /* highlights.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 468507B618F84A0100DDCCE7 /* highlights.jpg */; };
-		4699C7B818F19849009C4EA9 /* microphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 4699C7B718F19849009C4EA9 /* microphone.png */; };
 		4699C7D518F1AAAD009C4EA9 /* audioStart.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4699C7D318F1AAAD009C4EA9 /* audioStart.caf */; };
 		4699C7D618F1AAAE009C4EA9 /* audioStop.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4699C7D418F1AAAD009C4EA9 /* audioStop.caf */; };
 		4699C7E218F1B624009C4EA9 /* UIView+Styles.m in Sources */ = {isa = PBXBuildFile; fileRef = 4699C7E118F1B624009C4EA9 /* UIView+Styles.m */; };
@@ -88,6 +80,14 @@
 		46E29B4018F56C1A009E208D /* live.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 46E29B3A18F56C1A009E208D /* live.jpg */; };
 		46E29B4118F56C1A009E208D /* religion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 46E29B3B18F56C1A009E208D /* religion.jpg */; };
 		46E29B4318F59411009E208D /* wolfram_alpha.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 46E29B4218F59410009E208D /* wolfram_alpha.jpg */; };
+		46E9FB1518FD733600B11860 /* microphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 46E9FB0418FD733600B11860 /* microphone.png */; };
+		46E9FB1618FD733600B11860 /* Wit.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E9FB0718FD733600B11860 /* Wit.m */; };
+		46E9FB1718FD733600B11860 /* WITCircleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E9FB0918FD733600B11860 /* WITCircleLayer.m */; };
+		46E9FB1818FD733600B11860 /* WITCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E9FB0B18FD733600B11860 /* WITCircleView.m */; };
+		46E9FB1918FD733600B11860 /* WITMicButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E9FB0D18FD733600B11860 /* WITMicButton.m */; };
+		46E9FB1A18FD733600B11860 /* WITRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E9FB1018FD733600B11860 /* WITRecorder.m */; };
+		46E9FB1B18FD733600B11860 /* WITState.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E9FB1218FD733600B11860 /* WITState.m */; };
+		46E9FB1C18FD733600B11860 /* WITUploader.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E9FB1418FD733600B11860 /* WITUploader.m */; };
 		46EE714918F2E06B0063D4EF /* RKIntentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EE714718F2E06B0063D4EF /* RKIntentTableViewCell.m */; };
 		46EE714A18F2E06B0063D4EF /* RKIntentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46EE714818F2E06B0063D4EF /* RKIntentTableViewCell.xib */; };
 		46FA7AAD18F6B3F100CBB804 /* ib.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 46FA7AAC18F6B3F100CBB804 /* ib.jpg */; };
@@ -115,22 +115,6 @@
 		4605BDF218EFBCE1001BF904 /* RKIntentSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RKIntentSearchViewController.h; path = Controllers/RKIntentSearchViewController.h; sourceTree = "<group>"; };
 		4605BDF318EFBCE1001BF904 /* RKIntentSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RKIntentSearchViewController.m; path = Controllers/RKIntentSearchViewController.m; sourceTree = "<group>"; };
 		4605BDF418EFBCE2001BF904 /* RKIntentSearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RKIntentSearchViewController.xib; path = Controllers/RKIntentSearchViewController.xib; sourceTree = "<group>"; };
-		4605BDF918EFBE8F001BF904 /* Wit-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Wit-Prefix.pch"; sourceTree = "<group>"; };
-		4605BDFA18EFBE8F001BF904 /* Wit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wit.h; sourceTree = "<group>"; };
-		4605BDFB18EFBE8F001BF904 /* Wit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wit.m; sourceTree = "<group>"; };
-		4605BDFC18EFBE8F001BF904 /* WITCircleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WITCircleLayer.h; sourceTree = "<group>"; };
-		4605BDFD18EFBE8F001BF904 /* WITCircleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WITCircleLayer.m; sourceTree = "<group>"; };
-		4605BDFE18EFBE8F001BF904 /* WITCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WITCircleView.h; sourceTree = "<group>"; };
-		4605BDFF18EFBE8F001BF904 /* WITCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WITCircleView.m; sourceTree = "<group>"; };
-		4605BE0018EFBE8F001BF904 /* WITMicButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WITMicButton.h; sourceTree = "<group>"; };
-		4605BE0118EFBE8F001BF904 /* WITMicButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WITMicButton.m; sourceTree = "<group>"; };
-		4605BE0218EFBE8F001BF904 /* WitPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WitPrivate.h; sourceTree = "<group>"; };
-		4605BE0318EFBE8F001BF904 /* WITRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WITRecorder.h; sourceTree = "<group>"; };
-		4605BE0418EFBE8F001BF904 /* WITRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WITRecorder.m; sourceTree = "<group>"; };
-		4605BE0518EFBE8F001BF904 /* WITState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WITState.h; sourceTree = "<group>"; };
-		4605BE0618EFBE8F001BF904 /* WITState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WITState.m; sourceTree = "<group>"; };
-		4605BE0718EFBE8F001BF904 /* WITUploader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WITUploader.h; sourceTree = "<group>"; };
-		4605BE0818EFBE8F001BF904 /* WITUploader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WITUploader.m; sourceTree = "<group>"; };
 		4605BE1118EFBEF9001BF904 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		4605BE1318EFBEFF001BF904 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		4605BE1518EFBF06001BF904 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -172,7 +156,6 @@
 		4646430418F78CA6002FEB5C /* awards.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = awards.jpg; path = Resources/awards.jpg; sourceTree = "<group>"; };
 		4646430618F79FB2002FEB5C /* how.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = how.jpg; path = Resources/how.jpg; sourceTree = "<group>"; };
 		468507B618F84A0100DDCCE7 /* highlights.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = highlights.jpg; path = Resources/highlights.jpg; sourceTree = "<group>"; };
-		4699C7B718F19849009C4EA9 /* microphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = microphone.png; sourceTree = "<group>"; };
 		4699C7D318F1AAAD009C4EA9 /* audioStart.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = audioStart.caf; path = Resources/audioStart.caf; sourceTree = "<group>"; };
 		4699C7D418F1AAAD009C4EA9 /* audioStop.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = audioStop.caf; path = Resources/audioStop.caf; sourceTree = "<group>"; };
 		4699C7E018F1B624009C4EA9 /* UIView+Styles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Styles.h"; path = "Views/UIView+Styles.h"; sourceTree = "<group>"; };
@@ -209,6 +192,23 @@
 		46E29B3A18F56C1A009E208D /* live.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = live.jpg; path = Resources/live.jpg; sourceTree = "<group>"; };
 		46E29B3B18F56C1A009E208D /* religion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = religion.jpg; path = Resources/religion.jpg; sourceTree = "<group>"; };
 		46E29B4218F59410009E208D /* wolfram_alpha.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = wolfram_alpha.jpg; path = Resources/wolfram_alpha.jpg; sourceTree = "<group>"; };
+		46E9FB0418FD733600B11860 /* microphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = microphone.png; path = RohanKapur/External/Wit/microphone.png; sourceTree = SOURCE_ROOT; };
+		46E9FB0518FD733600B11860 /* Wit-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Wit-Prefix.pch"; path = "RohanKapur/External/Wit/Wit-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		46E9FB0618FD733600B11860 /* Wit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Wit.h; path = RohanKapur/External/Wit/Wit.h; sourceTree = SOURCE_ROOT; };
+		46E9FB0718FD733600B11860 /* Wit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Wit.m; path = RohanKapur/External/Wit/Wit.m; sourceTree = SOURCE_ROOT; };
+		46E9FB0818FD733600B11860 /* WITCircleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WITCircleLayer.h; path = RohanKapur/External/Wit/WITCircleLayer.h; sourceTree = SOURCE_ROOT; };
+		46E9FB0918FD733600B11860 /* WITCircleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WITCircleLayer.m; path = RohanKapur/External/Wit/WITCircleLayer.m; sourceTree = SOURCE_ROOT; };
+		46E9FB0A18FD733600B11860 /* WITCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WITCircleView.h; path = RohanKapur/External/Wit/WITCircleView.h; sourceTree = SOURCE_ROOT; };
+		46E9FB0B18FD733600B11860 /* WITCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WITCircleView.m; path = RohanKapur/External/Wit/WITCircleView.m; sourceTree = SOURCE_ROOT; };
+		46E9FB0C18FD733600B11860 /* WITMicButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WITMicButton.h; path = RohanKapur/External/Wit/WITMicButton.h; sourceTree = SOURCE_ROOT; };
+		46E9FB0D18FD733600B11860 /* WITMicButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WITMicButton.m; path = RohanKapur/External/Wit/WITMicButton.m; sourceTree = SOURCE_ROOT; };
+		46E9FB0E18FD733600B11860 /* WitPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WitPrivate.h; path = RohanKapur/External/Wit/WitPrivate.h; sourceTree = SOURCE_ROOT; };
+		46E9FB0F18FD733600B11860 /* WITRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WITRecorder.h; path = RohanKapur/External/Wit/WITRecorder.h; sourceTree = SOURCE_ROOT; };
+		46E9FB1018FD733600B11860 /* WITRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WITRecorder.m; path = RohanKapur/External/Wit/WITRecorder.m; sourceTree = SOURCE_ROOT; };
+		46E9FB1118FD733600B11860 /* WITState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WITState.h; path = RohanKapur/External/Wit/WITState.h; sourceTree = SOURCE_ROOT; };
+		46E9FB1218FD733600B11860 /* WITState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WITState.m; path = RohanKapur/External/Wit/WITState.m; sourceTree = SOURCE_ROOT; };
+		46E9FB1318FD733600B11860 /* WITUploader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WITUploader.h; path = RohanKapur/External/Wit/WITUploader.h; sourceTree = SOURCE_ROOT; };
+		46E9FB1418FD733600B11860 /* WITUploader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WITUploader.m; path = RohanKapur/External/Wit/WITUploader.m; sourceTree = SOURCE_ROOT; };
 		46EE714618F2E06B0063D4EF /* RKIntentTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RKIntentTableViewCell.h; path = Views/RKIntentTableViewCell.h; sourceTree = "<group>"; };
 		46EE714718F2E06B0063D4EF /* RKIntentTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RKIntentTableViewCell.m; path = Views/RKIntentTableViewCell.m; sourceTree = "<group>"; };
 		46EE714818F2E06B0063D4EF /* RKIntentTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RKIntentTableViewCell.xib; path = Views/RKIntentTableViewCell.xib; sourceTree = "<group>"; };
@@ -319,22 +319,22 @@
 		4605BDF818EFBE8F001BF904 /* Wit */ = {
 			isa = PBXGroup;
 			children = (
-				4605BDF918EFBE8F001BF904 /* Wit-Prefix.pch */,
-				4605BDFA18EFBE8F001BF904 /* Wit.h */,
-				4605BDFB18EFBE8F001BF904 /* Wit.m */,
-				4605BDFC18EFBE8F001BF904 /* WITCircleLayer.h */,
-				4605BDFD18EFBE8F001BF904 /* WITCircleLayer.m */,
-				4605BDFE18EFBE8F001BF904 /* WITCircleView.h */,
-				4605BDFF18EFBE8F001BF904 /* WITCircleView.m */,
-				4605BE0018EFBE8F001BF904 /* WITMicButton.h */,
-				4605BE0118EFBE8F001BF904 /* WITMicButton.m */,
-				4605BE0218EFBE8F001BF904 /* WitPrivate.h */,
-				4605BE0318EFBE8F001BF904 /* WITRecorder.h */,
-				4605BE0418EFBE8F001BF904 /* WITRecorder.m */,
-				4605BE0518EFBE8F001BF904 /* WITState.h */,
-				4605BE0618EFBE8F001BF904 /* WITState.m */,
-				4605BE0718EFBE8F001BF904 /* WITUploader.h */,
-				4605BE0818EFBE8F001BF904 /* WITUploader.m */,
+				46E9FB0518FD733600B11860 /* Wit-Prefix.pch */,
+				46E9FB0618FD733600B11860 /* Wit.h */,
+				46E9FB0718FD733600B11860 /* Wit.m */,
+				46E9FB0818FD733600B11860 /* WITCircleLayer.h */,
+				46E9FB0918FD733600B11860 /* WITCircleLayer.m */,
+				46E9FB0A18FD733600B11860 /* WITCircleView.h */,
+				46E9FB0B18FD733600B11860 /* WITCircleView.m */,
+				46E9FB0C18FD733600B11860 /* WITMicButton.h */,
+				46E9FB0D18FD733600B11860 /* WITMicButton.m */,
+				46E9FB0E18FD733600B11860 /* WitPrivate.h */,
+				46E9FB0F18FD733600B11860 /* WITRecorder.h */,
+				46E9FB1018FD733600B11860 /* WITRecorder.m */,
+				46E9FB1118FD733600B11860 /* WITState.h */,
+				46E9FB1218FD733600B11860 /* WITState.m */,
+				46E9FB1318FD733600B11860 /* WITUploader.h */,
+				46E9FB1418FD733600B11860 /* WITUploader.m */,
 				4605BE1918EFC669001BF904 /* Resources */,
 			);
 			name = Wit;
@@ -354,7 +354,7 @@
 		4605BE1918EFC669001BF904 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				4699C7B718F19849009C4EA9 /* microphone.png */,
+				46E9FB0418FD733600B11860 /* microphone.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -564,7 +564,6 @@
 				46FA7AAD18F6B3F100CBB804 /* ib.jpg in Resources */,
 				4605BDF618EFBCE2001BF904 /* RKIntentSearchViewController.xib in Resources */,
 				46FA7ABB18F6ECE600CBB804 /* icab2go.jpg in Resources */,
-				4699C7B818F19849009C4EA9 /* microphone.png in Resources */,
 				46403F2E18FB7C11000A8E46 /* Images.xcassets in Resources */,
 				4646430518F78CA6002FEB5C /* awards.jpg in Resources */,
 				46A5239B18EFF5AC0030C36B /* RKIntentDetailViewController.xib in Resources */,
@@ -590,6 +589,7 @@
 				460CA30A18F69E500016CB1D /* screenshots_travelog5.jpg in Resources */,
 				4613B86718F8ED790009AB56 /* objectivec.jpg in Resources */,
 				460CA30818F69E500016CB1D /* screenshots_travelog3.jpg in Resources */,
+				46E9FB1518FD733600B11860 /* microphone.png in Resources */,
 				4613B86218F8ED790009AB56 /* css.jpg in Resources */,
 				46E29B4118F56C1A009E208D /* religion.jpg in Resources */,
 				4613B86618F8ED790009AB56 /* modernfamily.jpg in Resources */,
@@ -634,21 +634,21 @@
 			files = (
 				46AFCE6D18F0EE6E00894435 /* RKIntentAssembly.m in Sources */,
 				46A523B118EFFA630030C36B /* RKManager.m in Sources */,
+				46E9FB1818FD733600B11860 /* WITCircleView.m in Sources */,
 				46EE714918F2E06B0063D4EF /* RKIntentTableViewCell.m in Sources */,
 				46A5239A18EFF5AC0030C36B /* RKIntentDetailViewController.m in Sources */,
-				4605BE0918EFBE8F001BF904 /* Wit.m in Sources */,
+				46E9FB1A18FD733600B11860 /* WITRecorder.m in Sources */,
 				46E1D1F918F4FF9500DE956E /* XMLDictionary.m in Sources */,
-				4605BE0A18EFBE8F001BF904 /* WITCircleLayer.m in Sources */,
-				4605BE0D18EFBE8F001BF904 /* WITRecorder.m in Sources */,
+				46E9FB1B18FD733600B11860 /* WITState.m in Sources */,
 				4605BE8B18EFE6EB001BF904 /* FBShimmeringLayer.m in Sources */,
+				46E9FB1918FD733600B11860 /* WITMicButton.m in Sources */,
 				46A5239618EFF5930030C36B /* RKIntent.m in Sources */,
+				46E9FB1718FD733600B11860 /* WITCircleLayer.m in Sources */,
 				4605BDC518EEAA2D001BF904 /* main.m in Sources */,
-				4605BE0B18EFBE8F001BF904 /* WITCircleView.m in Sources */,
+				46E9FB1C18FD733600B11860 /* WITUploader.m in Sources */,
 				4605BDC918EEAA2D001BF904 /* RKAppDelegate.m in Sources */,
-				4605BE0F18EFBE8F001BF904 /* WITUploader.m in Sources */,
-				4605BE0E18EFBE8F001BF904 /* WITState.m in Sources */,
+				46E9FB1618FD733600B11860 /* Wit.m in Sources */,
 				46AFCE6E18F0EE6E00894435 /* RKDataStore.m in Sources */,
-				4605BE0C18EFBE8F001BF904 /* WITMicButton.m in Sources */,
 				4605BE8C18EFE6EB001BF904 /* FBShimmeringView.m in Sources */,
 				4699C7E218F1B624009C4EA9 /* UIView+Styles.m in Sources */,
 				4605BDF518EFBCE2001BF904 /* RKIntentSearchViewController.m in Sources */,
